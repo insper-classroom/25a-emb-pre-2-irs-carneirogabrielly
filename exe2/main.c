@@ -31,6 +31,5 @@ int main() {
       led_status = !led_status;
       gpio_put(LED_R, led_status);
     }
-
   }
-}
+};

@@ -67,6 +67,6 @@ int main()
       led_status_g = !led_status_g;
       gpio_put(LED_G, led_status_g);
       FLAG_G = 0;
-    }
+    };
   }
 }
